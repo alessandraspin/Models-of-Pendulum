@@ -1,5 +1,6 @@
 # NetLogo Models of Pendulum
 NetLogo simulations of different physical pendulums.
+$$$\ddot{\theta} + \omega^2\theta = \frac{A}{ml}\cos(\Omega t)$$$
 
 | Pendulum               | Equation of motion    | Simulation            |
 |------------------------|-----------------------|-----------------------|
