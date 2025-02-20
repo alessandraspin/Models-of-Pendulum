@@ -32,7 +32,7 @@ to go
   let state (list theta theta-dot)  ;; current state
   let new-state rk4 t state dt      ;; compute new state with rk4
 
-  ;; Aggiorna theta e theta-dot con i valori calcolati
+  ;; Update theta and theta-dot with new values
   set theta item 0 new-state
   set theta-dot item 1 new-state
   set t t + dt
